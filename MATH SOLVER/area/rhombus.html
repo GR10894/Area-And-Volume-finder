@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rhombus Area finder</title>
+    <link rel="shortcut icon" href="images/R.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header"><p class="p">Rhombus Area finder</p></div>
+    <div class="r">    <p>Diagonal 1:</p><input type="number" id="l">
+  <br>
+  <p>Diagonal 2:</p><input type="number" id="b">
+  <br>
+  <button onclick="area()">Calculate</button> <a href=""><button>Reset</button></a>
+  <br>
+  <p>Area :</p><input type="number" id="r"></div>
+
+  </body>
+  <script>
+    function area (){
+      let l = parseInt(document.getElementById('l').value)
+      let b = parseInt(document.getElementById('b').value)
+      let r = document.getElementById('r').value= 1/2*l*b
+    }
+  </script>
+  </body>
+  <script src="script.js"></script>
+</html>

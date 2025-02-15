@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cube Volume finder</title>
+    <link rel="shortcut icon" href="images/R.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header"><p class="p">Cube Volume finder</p></div>
+    <div class="r">   Side:
+    <br>
+    <input type="number" id = s>
+    <br>
+    <button onclick="vol()">Calculate</button><a href=""><button>Reset</button></a>
+    <br>
+    Result:
+    <br>
+    <input type="number" id = "r"></div>
+ 
+    <script>
+      function vol (){
+      let s = parseInt(document.getElementById('s').value);
+      let r = document.getElementById('r').value = s*s*s
+      }
+    </script>
+  </body>
+  <script src="script.js"></script>
+</html>

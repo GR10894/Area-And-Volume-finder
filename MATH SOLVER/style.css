@@ -1,0 +1,37 @@
+.header {
+  font-size: 27px;
+  text-align: center;
+  height: 75px;
+  background-color: rgb(132 150 152);
+}
+.p {
+  padding-top: 15px;
+  color: rgb(13 59 102);
+}
+
+body {
+  background-color: rgb(250 240 202);
+}
+* {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+.buttons {
+  padding-top: 50px;
+
+}
+.button {
+  font-size: 25px;
+  border-radius: 10%;
+  border-color: rgb(191 195 177);
+  height: 100px;
+  width: 200px;
+  color: rgb(191 195 177);
+}
+a {
+  padding-left: 180px;
+}
+.button:hover {
+  opacity: 85%;
+}
