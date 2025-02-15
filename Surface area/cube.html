@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cube Surface Area finder</title>
+    <link rel="shortcut icon" href="images/R.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header"><p class="p">Cube Surface Area finder</p></div>
+    <div class="r">    Side:
+    <br />
+    <input type="number" id="l" />
+    <br />
+    <select id="s">
+      <option>CSA</option>
+      <option>TSA</option>
+    </select>
+    <br />
+    <button onclick="area()">Calculate</button>
+    <a href=""><button>Reset</button></a>
+    <br />
+    result:
+    <br />
+    <input type="number" id="r" /></div>
+
+    <script>
+      function area() {
+        let l = parseInt(document.getElementById("l").value);
+        let s = document.getElementById("s").value;
+        let r = parseInt(document.getElementById("r").value);
+        if (s === 'CSA') {
+          let l = parseInt(document.getElementById("l").value);
+          let s = document.getElementById("s").value;
+          let r = (document.getElementById("r").value = 4 * l * l);
+        } else {
+          let l = parseInt(document.getElementById("l").value);
+          let s = document.getElementById("s").value;
+          let r = (document.getElementById("r").value = 6 * l * l);
+        }
+      }
+    </script>
+  </body>
+  <script src="script.js"></script>
+</html>
